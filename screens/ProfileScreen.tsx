@@ -20,6 +20,10 @@ const ProfileScreen: React.FC = () => {
             />
             <Text style={{ fontSize: 18, marginBottom: 10 }}>Name: The Classic Barber</Text>
             <Text style={{ fontSize: 18, marginBottom: 10 }}>Location:</Text>
+            <Image
+                source={{ uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDVm7TCmYLW3Ht0NOKgpvP60elGUs4GOLQ-Q&s' }} 
+                style={{ width: 300, height: 200, marginBottom: 20 }}
+            />
             {/* <MapView
                 style={{ width: '100%', height: 300 }}
                 initialRegion={shopLocation}
